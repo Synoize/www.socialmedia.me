@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="pragati instagram">
+    <meta name="description" content="----------------------">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="highlights-page-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>highlights | @pragati</title>
+</head>
+<style>
+    @media screen and (min-width:1024px) {
+        body {
+            padding: 0;
+
+        }
+
+        .navbar {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            background-color: var(--primary-color);
+        }
+
+        .nav-items {
+            width: 30%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            gap: 20px;
+            border-radius: 10px 10px 0 0;
+            padding: 18px;
+            position: fixed;
+            background-color: var(--secondary-color);
+        }
+
+        .highlights {
+            width: 30%;
+            height: auto;
+            margin: 45px auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 0px;
+            padding: 0px;
+            background-color: transparent;
+            overflow-y: scroll;
+            scrollbar-width: none;
+            border-right: 1px solid var(--secondary-color);
+            border-left: 1px solid var(--secondary-color);
+            
+        }
+
+        .new-highlights {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: var(--primary-color);
+        }
+
+        .highlights-images {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+            border-radius:0;
+            border: none;
+        }
+
+        .highlights-footer {
+            width: 30%;
+            margin: 92vh auto;
+            padding: 25px;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            border-radius: 0 0 10px 10px;
+            position: fixed;
+            background-color: var(--secondary-color);
+        }
+
+        
+
+
+    }
+
+
+
+
+
+    @media screen and (min-width:768px) and (max-width:1024px) {
+
+        body {
+            padding: 0;
+
+        }
+
+        .navbar {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            background-color: var(--primary-color);
+        }
+
+        .nav-items {
+            width: 40%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            gap: 20px;
+            border-radius: 10px 10px 0 0;
+            padding: 18px;
+            position: fixed;
+            background-color: var(--secondary-color);
+        }
+
+        .highlights {
+            width: 40%;
+            height: auto;
+            margin: 45px auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 0px;
+            padding: 0px;
+            background-color: transparent;
+            overflow-y: scroll;
+            scrollbar-width: none;
+            border-right: 1px solid var(--secondary-color);
+            border-left: 1px solid var(--secondary-color);
+            
+        }
+
+        .new-highlights {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: var(--primary-color);
+        }
+
+        .highlights-images {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+            border-radius:0;
+            border: none;
+        }
+
+        .highlights-footer {
+            width: 40%;
+            margin: 92vh auto;
+            padding: 25px;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            border-radius: 0 0 10px 10px;
+            position: fixed;
+            background-color: var(--secondary-color);
+        }
+
+        
+
+    }
+
+
+
+
+
+
+    @media screen and (max-width:768px) and (min-width:468px) {
+        body {
+            padding: 0;
+
+        }
+
+        .navbar {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            background-color: var(--primary-color);
+        }
+
+        .nav-items {
+            width: 60%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            gap: 20px;
+            border-radius: 10px 10px 0 0;
+            padding: 18px;
+            position: fixed;
+            background-color: var(--secondary-color);
+        }
+
+        .highlights {
+            width: 60%;
+            height: auto;
+            margin: 45px auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 0px;
+            padding: 0px;
+            background-color: transparent;
+            overflow-y: scroll;
+            scrollbar-width: none;
+            border-right: 1px solid var(--secondary-color);
+            border-left: 1px solid var(--secondary-color);
+            
+        }
+
+        .new-highlights {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: var(--primary-color);
+        }
+
+        .highlights-images {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+            border-radius:0;
+            border: none;
+        }
+
+        .highlights-footer {
+            width: 60%;
+            margin: 90vh auto;
+            padding: 25px;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            border-radius: 0 0 10px 10px;
+            position: fixed;
+            background-color: var(--secondary-color);
+        }
+
+        
+    }
+
+
+
+
+
+    @media screen and (max-width:468px) {
+        body {
+            padding: 0;
+
+        }
+
+        .navbar {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            background-color: var(--primary-color);
+        }
+
+        .nav-items {
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            gap: 20px;
+            border-radius: 0;
+            padding: 18px;
+            position: fixed;
+            background-color: var(--secondary-color);
+        }
+
+        .highlights {
+            width: 100%;
+            height: auto;
+            margin: 45px auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 0px;
+            padding: 0px;
+            background-color: transparent;
+            overflow-y: scroll;
+            scrollbar-width: none;
+            border-right: 1px solid var(--secondary-color);
+            border-left: 1px solid var(--secondary-color);
+            
+        }
+
+        .new-highlights {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: var(--primary-color);
+        }
+
+        .highlights-images {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+            border-radius:0;
+            border: none;
+        }
+
+        .highlights-footer {
+            width: 100%;
+            margin: 90vh auto;
+            padding: 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 0;
+            position: fixed;
+            background-color: var(--secondary-color);
+        }
+
+        
+
+    }
+</style>
+
+<body>
+    <section class="navbar">
+        <nav class="nav-items">
+            <a href="index.html"><i class="fa-solid fa-arrow-left-long fa-xl" style="color: var(--primary-color)"></i></a>
+            <p style="color: var(--primary-color);">highlights</p>
+        </nav>
+
+        <nav class="highlights-footer">
+                <i class="fa-solid fa-heart fa-xl" style="color: var(--primary-color); cursor: pointer;"
+                    onclick="like()" id="like-new-highlights"></i>
+                <a href="highlights11.jpg" download><i class="fa-solid fa-download fa-xl"
+                        style="color: var(--primary-color); cursor: pointer;"></i></a>
+        </nav>
+    </section>
+
+    <section class="highlights">
+
+
+        <nav class="new-highlights">
+            <img src="highlights11.jpg" class="highlights-images">
+
+        </nav>
+        <audio src="music6.mp3" autoplay loop  aria-valuemax="60%" ></audio>
+
+        <audio src="Highlights Music/music11.mp3" autoplay loop  aria-valuemax="60%" ></audio>
+
+    </section>
+
+
+
+
+
+    <script src="script.js"></script>
+    <script>
+    function like(){
+        var like_highlight = document.getElementById("like-new-highlights");
+        like_highlight.style="color:red; transition:0.2s;"
+    }
+    </script>
+</body>
+
+</html>
