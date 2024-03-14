@@ -1,0 +1,361 @@
+
+@media screen and (min-width:1024px) {
+    body {
+        padding: 0;
+
+    }
+
+    .navbar {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: var(--primary-color) ;
+    }
+
+    .nav-items {
+        width: 30%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        gap: 20px;
+        border-radius: 10px 10px 0 0;
+        padding: 18px;
+        position: fixed;
+        background-color: var(--secondary-color);
+    }
+
+    .memories {
+        width: 30%;
+        height: auto;
+        margin: 45px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+        padding: 0px;
+        background-color: transparent;
+        overflow-y: scroll;
+        scrollbar-width: none;
+        border-right: 1px solid var(--secondary-color);
+        border-left: 1px solid var(--secondary-color);
+        
+    }
+
+    .old-memories {
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--primary-color);
+    }
+
+    .new-memories{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--primary-color);
+    }
+
+    .memories-images {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .like-down {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 22px;
+    }
+    
+    .memories-footer {
+        width: 30%;
+        margin: 93.9vh auto;
+        padding: 25px;
+        border-radius:0 0 10px 10px;
+        position: fixed;
+        background-color: var(--secondary-color);
+    }
+
+    
+}
+
+
+
+
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+
+    body {
+        padding: 0;
+
+    }
+
+    .navbar {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: var(--primary-color);
+    }
+
+    .nav-items {
+        width: 40%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        gap: 20px;
+        border-radius: 10px 10px 0 0;
+        padding: 18px;
+        position: fixed;
+        background-color: var(--secondary-color);
+    }
+
+    .memories {
+        width: 40%;
+        height: auto;
+        margin: 45px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+        padding: 0px;
+        background-color: transparent;
+        overflow-y: scroll;
+        scrollbar-width: none;
+        border-right: 1px solid var(--secondary-color);
+        border-left: 1px solid var(--secondary-color);
+        
+    }
+
+    .old-memories {
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--primary-color);
+    }
+
+    .new-memories{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--primary-color);
+    }
+
+    .memories-images {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .like-down {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 22px;
+    }
+
+    .memories-footer {
+        width: 40%;
+        margin: 93.9vh auto;
+        padding: 25px;
+        border-radius:0 0 10px 10px;
+        position: fixed;
+        background-color: var(--secondary-color);
+    }
+
+}
+
+
+
+
+
+
+@media screen and (max-width:768px) and (min-width:468px) {
+    body {
+        padding: 0;
+
+    }
+
+    .navbar {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: var(--primary-color);
+    }
+
+    .nav-items {
+        width: 60%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        gap: 20px;
+        border-radius: 10px 10px 0 0;
+        padding: 18px;
+        position: fixed;
+        background-color: var(--secondary-color);
+    }
+
+    .memories {
+        width: 60%;
+        height: auto;
+        margin: 45px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+        padding: 0px;
+        background-color: transparent;
+        overflow-y: scroll;
+        scrollbar-width: none;
+        border-right: 1px solid var(--secondary-color);
+        border-left: 1px solid var(--secondary-color);
+        
+    }
+
+    .old-memories {
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--primary-color);
+    }
+
+    .new-memories{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--primary-color);
+    }
+
+    .memories-images {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .like-down {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 22px;
+    }
+
+    .memories-footer {
+        width: 60%;
+        margin: 93.9vh auto;
+        padding: 25px;
+        border-radius:0 0 10px 10px;
+        position: fixed;
+        background-color: var(--secondary-color);
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:468px) {
+    body {
+        padding: 0;
+
+    }
+
+    .navbar {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: var(--primary-color);
+    }
+
+    .nav-items {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        gap: 20px;
+        border-radius: 0;
+        padding: 18px;
+        position: fixed;
+        background-color: var(--secondary-color);
+    }
+
+    .memories {
+        width: 100%;
+        height: auto;
+        margin: 45px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+        padding: 0px;
+        background-color: transparent;
+        overflow-y: scroll;
+        scrollbar-width: none;
+        border-right: 1px solid var(--secondary-color);
+        border-left: 1px solid var(--secondary-color);
+        
+    }
+
+    .old-memories {
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--primary-color);
+    }
+
+    .new-memories{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--primary-color);
+    }
+
+    .memories-images {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .like-down {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 22px;
+    }
+
+    .memories-footer {
+        width: 100%;
+        margin: 93.9vh  auto;
+        padding: 25px;
+        border-radius:0;
+        position: fixed;
+        background-color: var(--secondary-color);
+    }
+
+}
